@@ -1,2 +1,4 @@
 # notebook
-notebook for Linux learning
+notebook for Linux,python,shadowsocks etc.
+created by Jackie Wang.
+
