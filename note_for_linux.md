@@ -36,11 +36,19 @@ build-essential
 ## 常用命令
 - ** man ** 查看在线命令参考手册
 ```
+man <cmd>
 man man
 ```
 ```
 touch
 ```
+
+## git 教程
+- 常用命令
+-- add
+-- clone
+-- commit
+-- push
 
 ## 从youtube 下载视频
 - ### 安装 Video Downloader
