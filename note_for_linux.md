@@ -23,7 +23,28 @@ download this file from [github](https://github.com/falwat/notebook)
 - ** Beyond Compare ** : 文件比较工具
 - ** freeFileSync ** 文件同步工具
 - ** Kazam ** : 录屏&截屏软件
-- ** GParted** : 磁盘分区工具
+- ** VirtualBox ** : 虚拟机
+```
+apt install virtualbox virtualbox-qt
+```
+
+- ** GParted ** : 图形化分区编辑工具
+```
+apt install gparted reiser4progs gpart libparted-dev 
+```
+- ** putty ** : SSH 客户端
+```
+sudo install putty putty-doc
+```
+- ** picocom ** : 串口终端
+```
+sudo apt-get install picocom
+
+run with  "picocom -b BAUD_RATE /dev/SERIAL_DEVICE"
+Exit with  "Control-A Control-X"
+```
+
+
 - ** AcetoneISO ** : 光盘镜像工具，CD/DVD烧写、虚拟光驱
 --------------------------
 website for learning Linux
@@ -96,4 +117,9 @@ digraph G {
 - 使用dot 绘图
 ```
 dot -Tps graph1.gv -o graph1.ps
+```
+### download Linux Kernel
+```
+ # linux-4.8.11.tar.xz
+wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.8.11.tar.xz
 ```
