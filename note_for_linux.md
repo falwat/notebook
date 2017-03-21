@@ -2,6 +2,17 @@
 
 download this file from [github](https://github.com/falwat/notebook)
 
+## 重装系统必安装的软件
+```
+apt install git vim
+```
+
+## 安装shadowsocks-qt5 
+```
+sudo add-apt-repository ppa:hzwhuang/ss-qt5
+sudo apt update
+sudo apt install shadowsocks-qt5
+```
 ## Best applications
 
 - ** franz ** ： messenger services
